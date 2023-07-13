@@ -1,0 +1,82 @@
+.header {
+    background-color: $hero-header-bg;
+    background-image: url('../images/hero-blur-image-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.sitenav__list {
+    display: flex;
+  
+    gap: 5rem;
+
+    a {
+        color:$link-color;
+        transition: 0.3s;
+        position: relative;
+
+       
+
+        &::before {
+            display: inline-block;
+            content:'';
+            position: absolute;
+            height: 2px;
+            width: 0%;
+            bottom:0;
+            background:$link-color;
+            transition: 0.3s;
+        }
+
+        &:hover::before {
+            width: 100%;
+        }
+        
+       
+        
+    }
+}
+
+.header__hero__container {
+    display: flex;
+    align-items: center;
+    padding-top: 15rem;
+    padding-bottom: 32rem;
+}
+
+.hero__btn {
+    margin-bottom: 4rem;
+}
+.hero__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-size: $h1-fs;
+    line-height: $h1-lh;
+    padding-bottom: 3rem;
+    color: $white-color;
+}
+.hero__text {
+    font-family: $main-font;
+    font-size: $p-fs ;
+    font-weight: $p-fw;
+    line-height: $p-lh;
+    margin-bottom: 5rem;
+    color: $hero-text-color;
+}
+.hero__links {
+   display: flex;
+   gap: 5rem;
+   align-items: center;
+}
+
+.hero__link2 {
+    color: $white-color;
+}

@@ -1,0 +1,39 @@
+.header__link{
+    width: 14rem;
+    height: 5.8rem;
+    display: flex;
+    font-family: $main-font;
+    font-size: $btn-fs;
+    font-weight: $h4-fw-light;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem;
+    background-color: $cyan-color-seondary-light;
+    color: $white-color;
+}
+.hero__btn{
+    width: 19.5rem;
+    height: 6.5rem;
+    display: flex;
+    font-family: $secondary-font;
+    font-size: $btn2-fs;
+    font-weight: $h4-fw-light;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem;
+    background-color: $cyan-color-seondary-light;
+    color: $white-color;
+}
+.hero__link1 {
+    width: 14rem;
+    height: 6rem;
+    display: flex;
+    font-family: $main-font;
+    font-size: $btn-fs;
+    font-weight: $h4-fw-light;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.5rem;
+    background-color: $orange-color;
+    color: $white-color;
+}
